@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Place order</name>
+   <name>div_order form</name>
    <tag></tag>
    <elementGuidId>ea90c86e-b3a9-4c30-883e-6a65de263d73</elementGuidId>
    <selectorCollection>

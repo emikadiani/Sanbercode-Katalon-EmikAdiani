@@ -21,19 +21,19 @@ WebUI.callTestCase(findTestCase('Cart/block-addToCart'), [:], FailureHandling.CO
 
 WebUI.click(findTestObject('HomePage/menu_Cart'))
 
-WebUI.refresh(FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Cart/4.General/h2_Products'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyTextPresent('Products', false)
+WebUI.delay(2)
 
-WebUI.verifyElementVisible(findTestObject('Cart/4.General/btn_Place Order'))
+WebUI.verifyTextPresent('MacBook air', false)
 
-WebUI.click(findTestObject('Cart/4.General/btn_Place Order'))
+WebUI.click(findTestObject('Cart/3.Place-Order/btn_Delete'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
-WebUI.waitForElementVisible(findTestObject('Cart/3.Place-Order/div_order form'), 0)
+WebUI.verifyTextNotPresent('MacBook air', false)
 
-WebUI.verifyElementVisible(findTestObject('Cart/3.Place-Order/div_order form'))
+WebUI.click(findTestObject('Cart/3.Place-Order/btn_Place Order'))
 
 WebUI.setText(findTestObject('Cart/3.Place-Order/txt_Name'), findTestData('DataOrder/DataOrder-Excel').getValue(1, 1))
 
@@ -53,7 +53,7 @@ WebUI.verifyElementVisible(findTestObject('Cart/3.Place-Order/btn_Purchase'))
 
 WebUI.click(findTestObject('Cart/3.Place-Order/btn_Purchase'))
 
-WebUI.verifyTextPresent('Thank you for your purchase!', false)
+WebUI.verifyTextPresent('There is nothing in your cart!', false)
 
 WebUI.click(findTestObject('Cart/3.Place-Order/btn_OrderConfirmation'))
 

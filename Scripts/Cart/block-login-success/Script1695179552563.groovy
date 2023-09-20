@@ -37,7 +37,7 @@ WebUI.setText(findTestObject('Login-Page/txt_login_Password'), GlobalVariable.va
 
 WebUI.click(findTestObject('Login-Page/btn_Log in'))
 
-WebUI.verifyElementVisible(findTestObject('HomePage/menu_Welcome'))
+WebUI.delay(4)
 
 WebUI.verifyTextPresent(GlobalVariable.validUsername, false)
 

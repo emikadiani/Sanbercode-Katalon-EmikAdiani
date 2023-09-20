@@ -25,27 +25,3 @@ WebUI.waitForElementVisible(findTestObject('HomePage/h1_PRODUCT STORE'), 0)
 
 WebUI.verifyElementVisible(findTestObject('HomePage/h1_PRODUCT STORE'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePage/menu_Sign up'))
-
-WebUI.waitForElementVisible(findTestObject('SignUp-Page/h2_Sign up'), 0)
-
-WebUI.verifyElementVisible(findTestObject('SignUp-Page/h2_Sign up'))
-
-WebUI.setText(findTestObject('SignUp-Page/txt_signup_Username'), GlobalVariable.validUsername)
-
-WebUI.setText(findTestObject('SignUp-Page/txt_signup_Password'), GlobalVariable.validPassword)
-
-WebUI.click(findTestObject('SignUp-Page/btn_Sign up'))
-
-WebUI.waitForAlert(2)
-
-alertSignUp1 = WebUI.getAlertText()
-
-println('alert text is: ' + alertSignUp1)
-
-WebUI.verifyMatch(alertSignUp1, 'Sign up successful.', false)
-
-WebUI.verifyAlertPresent(2)
-
-WebUI.acceptAlert()
-

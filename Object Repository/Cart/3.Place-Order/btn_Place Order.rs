@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_Next</name>
+   <name>btn_Place Order</name>
    <tag></tag>
-   <elementGuidId>5220c146-6c14-4637-855c-06b3c939ef7e</elementGuidId>
+   <elementGuidId>1139138b-80aa-438b-b002-2eb5ee56c635</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;next2&quot;]</value>
+         <value>(//button[@type='button'])[30]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#next2</value>
+         <value>button.btn.btn-success</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,79 +22,87 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>461f42c6-476f-4bfd-acc2-2ef4b51845b5</webElementGuid>
+      <webElementGuid>4b19bccc-23b1-4696-98fa-bd6da40aa593</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e933de18-4030-4467-a8bd-1e3fdd130ec0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>page-link</value>
-      <webElementGuid>f74f07dd-92dd-4ee4-8819-7a13c1645ed8</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>next2</value>
-      <webElementGuid>8dd49b6f-4f09-4344-9a8a-893923b11f35</webElementGuid>
+      <value>btn btn-success</value>
+      <webElementGuid>f85b39a8-178a-4b0f-8851-14aa2c219dec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>data-toggle</name>
       <type>Main</type>
-      <value>9</value>
-      <webElementGuid>1e972521-4974-4848-8a77-1b62e88d262d</webElementGuid>
+      <value>modal</value>
+      <webElementGuid>c520f85e-12a1-4be9-b583-dd396a850c87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-target</name>
+      <type>Main</type>
+      <value>#orderModal</value>
+      <webElementGuid>d600d376-2f20-470c-af14-86579c983bf1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Next</value>
-      <webElementGuid>e3e45ca0-7a86-4da4-984b-525d627e525b</webElementGuid>
+      <value>Place Order</value>
+      <webElementGuid>f337a6aa-3a98-4e51-8d2e-d4be4800d902</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;next2&quot;)</value>
-      <webElementGuid>7d040f17-e836-4199-9172-7dc6f1470409</webElementGuid>
+      <value>id(&quot;page-wrapper&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-1&quot;]/button[@class=&quot;btn btn-success&quot;]</value>
+      <webElementGuid>f50d1009-cbe6-4c4b-b84e-ba2aa7d3689c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='next2']</value>
-      <webElementGuid>c37e3b76-a3e8-49f9-a01c-abe7e28188f4</webElementGuid>
+      <value>(//button[@type='button'])[30]</value>
+      <webElementGuid>5b002996-91f4-493c-b731-a46fb06980de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='frm']/ul/li[2]/button</value>
-      <webElementGuid>4e1b3acc-ec6e-4b33-a084-3777b0319562</webElementGuid>
+      <value>//div[@id='page-wrapper']/div/div[2]/button</value>
+      <webElementGuid>4b8f25b2-7871-4598-987e-e8b333c5a53c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[2]/following::button[1]</value>
-      <webElementGuid>981f4a02-860b-4589-9924-0d18408b4608</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/following::button[1]</value>
+      <webElementGuid>55f9b4a9-7160-4247-ac05-d823f28fd1bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$790'])[3]/following::button[2]</value>
-      <webElementGuid>e57caff3-0f96-4f8e-bf5b-992693d4b345</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nokia lumia 1520'])[1]/following::button[1]</value>
+      <webElementGuid>5e0cee22-88b6-4149-8527-31d606fd7506</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='About Us'])[1]/preceding::button[1]</value>
-      <webElementGuid>c27e83d8-a0f3-470e-8593-0dc7160b4d41</webElementGuid>
+      <webElementGuid>feb9fd90-7a7a-4cd7-9e3a-785d28d580c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,22 +118,30 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Get in Touch'])[1]/preceding::button[1]</value>
-      <webElementGuid>67e92b3c-96fd-4d62-9c70-7cdef6195043</webElementGuid>
+      <webElementGuid>443aa598-4f2d-4136-a332-a9faa80e9acf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Place Order']/parent::*</value>
+      <webElementGuid>4a7857ca-e737-4a23-8aa3-08635c349ced</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/button</value>
-      <webElementGuid>a231ebee-8cdb-4f20-b01e-66b7c039f8b5</webElementGuid>
+      <value>//div[2]/button</value>
+      <webElementGuid>9de1e8cf-1a73-4c05-9051-a7cf7075ec1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'next2' and (text() = 'Next' or . = 'Next')]</value>
-      <webElementGuid>ce1bca44-56c3-41a8-94d0-b29b83657f69</webElementGuid>
+      <value>//button[@type = 'button' and (text() = 'Place Order' or . = 'Place Order')]</value>
+      <webElementGuid>21e9ee8e-3ad3-490a-9de1-f6c0a99ed0ea</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

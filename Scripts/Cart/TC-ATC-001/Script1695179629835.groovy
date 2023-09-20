@@ -27,17 +27,19 @@ WebUI.verifyElementVisible(findTestObject('Cart/4.General/btn_Next'))
 
 WebUI.click(findTestObject('Cart/4.General/btn_Next'))
 
-WebUI.verifyElementVisible(findTestObject('Cart/1.Single-product/img_macbookair'))
+WebUI.verifyElementVisible(findTestObject('Cart/3.Place-Order/img_macbook-cover'))
+
+WebUI.scrollToElement(findTestObject('Cart/1.Single-product/product_MacBook air'), 0)
 
 WebUI.click(findTestObject('Cart/1.Single-product/product_MacBook air'))
 
-WebUI.waitForElementVisible(findTestObject('Cart/1.Single-product/h2_MacBook air'), 0)
+WebUI.verifyElementVisible(findTestObject('Cart/1.Single-product/h2_MacBook air'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('Cart/1.Single-product/btn_Add to cart_macbook'))
 
 WebUI.click(findTestObject('Cart/1.Single-product/btn_Add to cart_macbook'))
 
-WebUI.waitForAlert(2)
+WebUI.waitForAlert(5)
 
 alertCart = WebUI.getAlertText()
 

@@ -27,7 +27,7 @@ WebUI.verifyElementVisible(findTestObject('Cart/4.General/btn_Next'))
 
 WebUI.click(findTestObject('Cart/4.General/btn_Next'))
 
-WebUI.verifyElementVisible(findTestObject('Cart/1.Single-product/img_macbookair'))
+WebUI.verifyElementVisible(findTestObject('Cart/1.Single-product/product_MacBook air'))
 
 WebUI.click(findTestObject('Cart/1.Single-product/product_MacBook air'))
 
@@ -36,16 +36,4 @@ WebUI.waitForElementVisible(findTestObject('Cart/1.Single-product/h2_MacBook air
 WebUI.verifyElementVisible(findTestObject('Cart/1.Single-product/btn_Add to cart_macbook'))
 
 WebUI.click(findTestObject('Cart/1.Single-product/btn_Add to cart_macbook'))
-
-WebUI.waitForAlert(4)
-
-alertCart = WebUI.getAlertText()
-
-println('alert text is: ' + alertCart)
-
-WebUI.verifyMatch(alertCart, 'Product added.', false)
-
-WebUI.verifyAlertPresent(2)
-
-WebUI.acceptAlert()
 

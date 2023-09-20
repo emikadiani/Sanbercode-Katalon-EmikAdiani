@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h2_Thank you for your purchase</name>
+   <name>title_MacBook air</name>
    <tag></tag>
-   <elementGuidId>0c4497f7-9277-450e-90a5-e9695ce6aa4f</elementGuidId>
+   <elementGuidId>43df1805-f02d-4779-9725-96d05fec8ad4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Thank you for your purchase!' or . = 'Thank you for your purchase!')]</value>
+         <key>XPATH</key>
+         <value>//tbody[@id='tbodyid']/tr/td[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.sweet-alert.showSweetAlert.visible > h2</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::h2[1]</value>
+         <value>td:nth-of-type(2)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,79 +21,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h2</value>
-      <webElementGuid>8bcb5823-0ac3-46db-a1b6-2e3a2c73cba4</webElementGuid>
+      <value>td</value>
+      <webElementGuid>57a541b4-4737-462c-982a-58f0f4da051c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Thank you for your purchase!</value>
-      <webElementGuid>6e6eb12d-e371-4143-b7bf-aa9b1e2c1b3a</webElementGuid>
+      <value>MacBook air</value>
+      <webElementGuid>7d07d2d6-1052-4043-b4a7-239d8a22d313</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;modal-open stop-scrolling&quot;]/div[@class=&quot;sweet-alert  showSweetAlert visible&quot;]/h2[1]</value>
-      <webElementGuid>56f2fce0-f7c9-4f86-aea9-7009f47e578a</webElementGuid>
+      <value>id(&quot;tbodyid&quot;)/tr[@class=&quot;success&quot;]/td[2]</value>
+      <webElementGuid>0a969772-50be-4fc6-8de4-e619f43081d4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::h2[1]</value>
-      <webElementGuid>af847085-178a-4b8d-a321-fe27656a1e7b</webElementGuid>
+      <value>//tbody[@id='tbodyid']/tr/td[2]</value>
+      <webElementGuid>ad5e9be8-5758-4b89-9657-c4cfe35f1a34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::h2[1]</value>
-      <webElementGuid>a2bb8806-bf55-4837-952d-5d482ef5101d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='x'])[1]/following::td[2]</value>
+      <webElementGuid>0f4f55d7-7f6e-42c8-b099-cae5c7f2055a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Not valid'])[1]/preceding::h2[1]</value>
-      <webElementGuid>bcce5c04-a79f-4183-889c-7e8aa8dbd34f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Price'])[1]/following::td[2]</value>
+      <webElementGuid>c8f8187a-c526-4b82-8fe5-6768e40636f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::h2[1]</value>
-      <webElementGuid>4e76242f-5ec3-4570-92ad-70d8207aeb69</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/preceding::td[3]</value>
+      <webElementGuid>c60efbac-b043-4bc7-aa84-de5b17b432c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Thank you for your purchase!']/parent::*</value>
-      <webElementGuid>6878610f-5ad7-4d78-b90d-e90698e1971e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Place Order'])[1]/preceding::td[3]</value>
+      <webElementGuid>ecbf05a8-1be1-41be-b130-8857ec0305f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='MacBook air']/parent::*</value>
+      <webElementGuid>059a4d8a-2f46-4b5d-860b-86974ccb0d24</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[11]/h2</value>
-      <webElementGuid>0b2d1ac5-d19e-44eb-9871-e4bcf6c506aa</webElementGuid>
+      <value>//td[2]</value>
+      <webElementGuid>0938c8f6-cc3f-466a-be6c-cd31de843a91</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h2[(text() = 'Thank you for your purchase!' or . = 'Thank you for your purchase!')]</value>
-      <webElementGuid>43362042-4887-47fd-bbd8-7503446a8dcd</webElementGuid>
+      <value>//td[(text() = 'MacBook air' or . = 'MacBook air')]</value>
+      <webElementGuid>cb1baa7c-b2fa-42f4-bbcc-157f28d2c940</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

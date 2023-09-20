@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>product_MacBook air</name>
+   <name>btn_Delete</name>
    <tag></tag>
-   <elementGuidId>1ce78786-df43-4b07-aeb2-a43ade46bd2a</elementGuidId>
+   <elementGuidId>655aaf19-8020-4440-85ec-c173b9a5eaa9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;tbodyid&quot;]/div[1]/div/div/h4/a</value>
+         <value>//*[@id=&quot;tbodyid&quot;]/tr/td[4]/a</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;tbodyid&quot;)/div[@class=&quot;col-lg-4 col-md-6 mb-4&quot;]/div[@class=&quot;card h-100&quot;]/div[@class=&quot;card-block&quot;]/h4[@class=&quot;card-title&quot;]/a[@class=&quot;hrefch&quot;][count(. | //*[@href = 'prod.html?idp_=11' and (text() = 'MacBook air' or . = 'MacBook air')]) = count(//*[@href = 'prod.html?idp_=11' and (text() = 'MacBook air' or . = 'MacBook air')])]</value>
+         <value>//*[@href = '#' and (text() = 'Delete' or . = 'Delete')]</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value>td:nth-of-type(4) > a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -25,118 +26,126 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>ede39542-036d-423e-8149-4910e546714d</webElementGuid>
+      <webElementGuid>fccf2502-bd2b-4624-96f8-9c67bac3c541</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>prod.html?idp_=11</value>
-      <webElementGuid>be0ee645-0f8f-4150-96ff-ce9df2f6b144</webElementGuid>
+      <value>#</value>
+      <webElementGuid>ef9e86c0-fde6-402b-a1e5-0128ee917c4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>onclick</name>
       <type>Main</type>
-      <value>hrefch</value>
-      <webElementGuid>9dfd8417-17ff-4c34-8414-1b1148e2b1e0</webElementGuid>
+      <value>deleteItem('6f1ed865-8bc1-62a6-1c1f-da6c42154cb7')</value>
+      <webElementGuid>ede1b5d0-24a6-4434-915b-5fbe943d500d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>MacBook air</value>
-      <webElementGuid>02c1d362-d855-4462-b171-2e9055043a03</webElementGuid>
+      <value>Delete</value>
+      <webElementGuid>af9cacfa-1579-40e3-8569-2985d4798d2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tbodyid&quot;)/div[@class=&quot;col-lg-4 col-md-6 mb-4&quot;]/div[@class=&quot;card h-100&quot;]/div[@class=&quot;card-block&quot;]/h4[@class=&quot;card-title&quot;]/a[@class=&quot;hrefch&quot;]</value>
-      <webElementGuid>4a9217ed-fe68-4bcb-a309-63171a2be130</webElementGuid>
+      <value>id(&quot;tbodyid&quot;)/tr[@class=&quot;success&quot;]/td[4]/a[1]</value>
+      <webElementGuid>bd04341f-8518-4424-8a94-41ad3834eb4c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick=&quot;deleteItem('6f1ed865-8bc1-62a6-1c1f-da6c42154cb7')&quot;]</value>
+      <webElementGuid>dcf4f8ca-d3a6-4b6c-bd56-0122e1bdfd6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='tbodyid']/div[2]/div/div/h4/a</value>
-      <webElementGuid>3570a363-76f6-4ab4-b10b-f3b7008a178a</webElementGuid>
+      <value>//tbody[@id='tbodyid']/tr/td[4]/a</value>
+      <webElementGuid>89ec55f4-bbae-46d8-a124-9351e76778ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'MacBook air')]</value>
-      <webElementGuid>4d204419-e3b1-4df9-b6ff-9ac769521ee5</webElementGuid>
+      <value>//a[contains(text(),'Delete')]</value>
+      <webElementGuid>824c931d-aecd-492b-af06-a8a526036a8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$400'])[1]/following::a[2]</value>
-      <webElementGuid>3def5532-650b-4c2a-a66c-b02c887cbcc8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nokia lumia 1520'])[1]/following::a[1]</value>
+      <webElementGuid>aac55c46-4b28-484a-828a-73d4c778145c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apple monitor 24'])[1]/following::a[2]</value>
-      <webElementGuid>87cfeafb-5687-4fd3-9367-5cf9407e5503</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='x'])[1]/following::a[1]</value>
+      <webElementGuid>5e1a178f-24c9-416e-851d-3c21e9ffcda0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$700'])[1]/preceding::a[1]</value>
-      <webElementGuid>050c8b3b-d678-43e1-8c73-cdb48074048a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/preceding::a[1]</value>
+      <webElementGuid>897ac33a-07f7-49cd-b7b7-c1e3757f44f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dell i7 8gb'])[1]/preceding::a[2]</value>
-      <webElementGuid>c644222f-9cb9-4fcb-af12-c7ed8a95004d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Place Order'])[1]/preceding::a[1]</value>
+      <webElementGuid>2733eb89-5ff6-4b19-ab2b-e0a41fb28c74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='MacBook air']/parent::*</value>
-      <webElementGuid>1a2abffc-acd0-4c6a-b04e-4995da6c9bc4</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Delete']/parent::*</value>
+      <webElementGuid>a0ee4c30-ec3d-49fb-b2f3-8bf6a36fdded</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'prod.html?idp_=11')]</value>
-      <webElementGuid>8d8c7279-ecf4-47ec-81b6-0fd4a088f082</webElementGuid>
+      <value>(//a[contains(@href, '#')])[8]</value>
+      <webElementGuid>a467a661-a47c-4133-977a-ba6650ef25e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/h4/a</value>
-      <webElementGuid>65d717be-8cea-4a9b-bf4b-d8b630830bdc</webElementGuid>
+      <value>//td[4]/a</value>
+      <webElementGuid>64847c98-fad6-490f-985b-017865aaf95d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'prod.html?idp_=11' and (text() = 'MacBook air' or . = 'MacBook air')]</value>
-      <webElementGuid>e028fbda-50a1-46c2-a02d-fc0c4fe8be26</webElementGuid>
+      <value>//a[@href = '#' and (text() = 'Delete' or . = 'Delete')]</value>
+      <webElementGuid>7dad8012-e943-4372-804d-db8d1faa4e7d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

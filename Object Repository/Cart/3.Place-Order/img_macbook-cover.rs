@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_macbookair</name>
+   <name>img_macbook-cover</name>
    <tag></tag>
-   <elementGuidId>e0ecbcd9-fd29-4ab5-b57f-fc73814bfce9</elementGuidId>
+   <elementGuidId>ae39c4b7-2ec0-4912-9992-13d04b6cc94b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>0d9cfdce-a84d-478d-b780-93418b8ea21c</webElementGuid>
+      <webElementGuid>32dd3fdd-9cfc-4671-be8c-10c320f4f676</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>card-img-top img-fluid</value>
-      <webElementGuid>f8c72f6f-fadc-4147-a642-738fbd609e1f</webElementGuid>
+      <webElementGuid>c4c87e5b-a7a2-4e0e-8659-4b7e36f3bbb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>src</name>
       <type>Main</type>
       <value>imgs/macbook_air.jpg</value>
-      <webElementGuid>620b26ad-b843-4f46-8776-fac5a962d502</webElementGuid>
+      <webElementGuid>1c62e0a8-2094-4130-acb2-c0d3a66e512a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tbodyid&quot;)/div[@class=&quot;col-lg-4 col-md-6 mb-4&quot;]/div[@class=&quot;card h-100&quot;]/a[1]/img[@class=&quot;card-img-top img-fluid&quot;]</value>
-      <webElementGuid>29a8ac6e-2678-48fa-8764-83b079dee53a</webElementGuid>
+      <webElementGuid>b0f43ddb-4266-45bb-af4a-52d7224af94c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='tbodyid']/div[2]/div/a/img</value>
-      <webElementGuid>2bf69653-b1f6-4bd0-b46f-3567da9ac209</webElementGuid>
+      <webElementGuid>e3e55be5-a2e7-40bd-8047-634b74165d7d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/a/img</value>
-      <webElementGuid>29d8a288-4f68-4a41-90cd-0fddcf05b284</webElementGuid>
+      <webElementGuid>f2611646-69b8-4d8e-a332-0807ed9023a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +70,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'imgs/macbook_air.jpg']</value>
-      <webElementGuid>83a64ed5-fac1-417e-a0cc-5d6f0f5fabe6</webElementGuid>
+      <webElementGuid>d5ba9bef-b607-4052-bf7e-98e81c9db441</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
