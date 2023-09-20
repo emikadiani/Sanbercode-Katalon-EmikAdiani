@@ -16,30 +16,30 @@ The task that I am doing are:<br>
 ---------------------
 
 ## Test Cases
-This project consist of 3 Test Suites.
-• Register scenario
-• Login scenario
-• Add to cart & checkout
+This project consist of 3 Test Suites.<br>
+• Register scenario<br>
+• Login scenario<br>
+• Add to cart & checkout<br>
 
 It all has 11 test cases. 9 passed and 2 failed.
 
 ### Register Scenario
-  TC-SU-001	user register using valid data
-	TC-SU-002	user register using existing data
-	TC-SU-003	user register by only input username field and leave the password field blank
-	TC-SU-004	user register by only input password field and leave the username field blank
-	TC-SU-005	user wants to register but leave all the field blank and only click loggin button
-	TC-SU-006	user register using valid username but input only one character onto the password field
+  TC-SU-001	user register using valid data<br>
+	TC-SU-002	user register using existing data<br>
+	TC-SU-003	user register by only input username field and leave the password field blank<br>
+	TC-SU-004	user register by only input password field and leave the username field blank<br>
+	TC-SU-005	user wants to register but leave all the field blank and only click loggin button<br>
+	TC-SU-006	user register using valid username but input only one character onto the password field<br>
 
 ### Login Scenario
-  TC-LI-001	user login with valid credential
-  TC-LI-002	user login with wrong password
+  TC-LI-001	user login with valid credential<br>
+  TC-LI-002	user login with wrong password<br>
 
 ### Add to cart & checkout Scenario
-  TC-ATC-001	user wants to add products to cart
-  TC-CO-001	user wants to place order with a product on the cart
-  TC-CO-002	user wants to place order without any product on the cart
+  TC-ATC-001	user wants to add products to cart<br>
+  TC-CO-001	user wants to place order with a product on the cart<br>
+  TC-CO-002	user wants to place order without any product on the cart<br>
 
-Failed test cases: 
-• TC-SU-006, user could register using one characters as their password.
-• TC-CO-002, checkout order successfully while cart has no product in it.
+Failed test cases: <br>
+• TC-SU-006, user could register using one characters as their password.<br>
+• TC-CO-002, checkout order successfully while cart has no product in it.<br>
