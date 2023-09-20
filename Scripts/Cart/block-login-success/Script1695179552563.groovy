@@ -21,33 +21,23 @@ WebUI.openBrowser(GlobalVariable.baseUrl)
 
 WebUI.setViewPortSize(GlobalVariable.viewportWidth, GlobalVariable.viewportHeight)
 
-WebUI.waitForElementVisible(findTestObject('HomePage/h1_PRODUCT STORE'), 0)
+WebUI.waitForElementVisible(findTestObject('HomePage/menu_Log in'), 0)
 
-WebUI.verifyElementVisible(findTestObject('HomePage/h1_PRODUCT STORE'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('HomePage/menu_Log in'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePage/menu_Sign up'))
+WebUI.click(findTestObject('HomePage/menu_Log in'))
 
-WebUI.waitForElementVisible(findTestObject('SignUp-Page/h2_Sign up'), 0)
+WebUI.waitForElementVisible(findTestObject('Login-Page/h2_Log in'), 0)
 
-WebUI.verifyElementVisible(findTestObject('SignUp-Page/h2_Sign up'))
+WebUI.verifyElementVisible(findTestObject('Login-Page/h2_Log in'))
 
-WebUI.setText(findTestObject('SignUp-Page/txt_signup_Username'), GlobalVariable.validUsername)
+WebUI.setText(findTestObject('Login-Page/txt_login_Username'), GlobalVariable.validUsername)
 
-WebUI.setText(findTestObject('SignUp-Page/txt_signup_Password'), GlobalVariable.validPassword)
+WebUI.setText(findTestObject('Login-Page/txt_login_Password'), GlobalVariable.validPassword)
 
-WebUI.click(findTestObject('SignUp-Page/btn_Sign up'))
+WebUI.click(findTestObject('Login-Page/btn_Log in'))
 
-WebUI.waitForAlert(4)
+WebUI.verifyElementVisible(findTestObject('HomePage/menu_Welcome'))
 
-alertSignUp2 = WebUI.getAlertText()
-
-println('alert text is: ' + alertSignUp2)
-
-WebUI.verifyMatch(alertSignUp2, 'This user already exist.', false)
-
-WebUI.verifyAlertPresent(2)
-
-WebUI.acceptAlert()
-
-WebUI.closeBrowser()
+WebUI.verifyTextPresent(GlobalVariable.validUsername, false)
 

@@ -17,37 +17,35 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.baseUrl)
-
-WebUI.setViewPortSize(GlobalVariable.viewportWidth, GlobalVariable.viewportHeight)
+WebUI.callTestCase(findTestCase('Cart/block-login-success'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('HomePage/h1_PRODUCT STORE'), 0)
 
-WebUI.verifyElementVisible(findTestObject('HomePage/h1_PRODUCT STORE'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('Cart/4.General/btn_Next'), 0)
 
-WebUI.click(findTestObject('HomePage/menu_Sign up'))
+WebUI.verifyElementVisible(findTestObject('Cart/4.General/btn_Next'))
 
-WebUI.waitForElementVisible(findTestObject('SignUp-Page/h2_Sign up'), 0)
+WebUI.click(findTestObject('Cart/4.General/btn_Next'))
 
-WebUI.verifyElementVisible(findTestObject('SignUp-Page/h2_Sign up'))
+WebUI.verifyElementVisible(findTestObject('Cart/1.Single-product/img_macbookair'))
 
-WebUI.setText(findTestObject('SignUp-Page/txt_signup_Username'), GlobalVariable.validUsername)
+WebUI.click(findTestObject('Cart/1.Single-product/product_MacBook air'))
 
-WebUI.setText(findTestObject('SignUp-Page/txt_signup_Password'), GlobalVariable.validPassword)
+WebUI.waitForElementVisible(findTestObject('Cart/1.Single-product/h2_MacBook air'), 0)
 
-WebUI.click(findTestObject('SignUp-Page/btn_Sign up'))
+WebUI.verifyElementVisible(findTestObject('Cart/1.Single-product/btn_Add to cart_macbook'))
+
+WebUI.click(findTestObject('Cart/1.Single-product/btn_Add to cart_macbook'))
 
 WebUI.waitForAlert(4)
 
-alertSignUp2 = WebUI.getAlertText()
+alertCart = WebUI.getAlertText()
 
-println('alert text is: ' + alertSignUp2)
+println('alert text is: ' + alertCart)
 
-WebUI.verifyMatch(alertSignUp2, 'This user already exist.', false)
+WebUI.verifyMatch(alertCart, 'Product added.', false)
 
 WebUI.verifyAlertPresent(2)
 
 WebUI.acceptAlert()
-
-WebUI.closeBrowser()
 

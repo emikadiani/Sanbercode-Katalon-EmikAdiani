@@ -35,7 +35,7 @@ WebUI.setText(findTestObject('SignUp-Page/txt_signup_Username'), GlobalVariable.
 
 WebUI.click(findTestObject('SignUp-Page/btn_Sign up'))
 
-WebUI.waitForAlert(2)
+WebUI.waitForAlert(4)
 
 alertSignUp3 = WebUI.getAlertText()
 

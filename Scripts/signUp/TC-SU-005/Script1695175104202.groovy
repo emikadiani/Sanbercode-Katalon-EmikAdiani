@@ -33,7 +33,7 @@ WebUI.verifyElementVisible(findTestObject('SignUp-Page/h2_Sign up'))
 
 WebUI.click(findTestObject('SignUp-Page/btn_Sign up'))
 
-WebUI.waitForAlert(2)
+WebUI.waitForAlert(4)
 
 alertSignUp3 = WebUI.getAlertText()
 
