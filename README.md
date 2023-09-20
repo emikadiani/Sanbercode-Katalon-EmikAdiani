@@ -41,5 +41,5 @@ It all has 11 test cases. 9 passed and 2 failed.
   TC-CO-002	user wants to place order without any product on the cart<br>
 
 Failed test cases: <br>
-• TC-SU-006, user could register using one characters as their password.<br>
-• TC-CO-002, checkout order successfully while cart has no product in it.<br>
+• TC-SU-006, user could register using one characters as their password. For a better security reason, password should be consist with a minimum of six characters and is a combination of characters, number and special characters <br>
+• TC-CO-002, checkout order successfully while no product in cart. There is a number of total order where no product in the cart, it is equal to zero. I am expecting that should be an alert "No product in the cart!" shown <br>
