@@ -5,19 +5,13 @@ An automation testing practice using Katalon Studio for [Demoblaze](https://www.
 The test objectives are to verify the Functional of website demoblaze, the project focust on end-to-end transactional such as register account, login, add to cart as well as checkout order. 
 This is to guarantee all these operation can work normally in real business environment.
 
-## Test Level
-In the project demoblaze, there're 3 types of testing that I've conducted <br>
-• Integration testing <br>
-• System testing <br>
-
 ## Project task 
 The task that I am doing are:<br>
 • Create the test specification <br>
 • Perform Test Execution <br>
 
 ## Test Environment
-• Google Chrome version 114.0.5735.198 (please execute this test using chrome, as this have been executed by safari and firefox but somehow getting failed)<br>
-• Macbook Air M1
+• Google Chrome version 114.0.5735.198 (to avoid any failure or failed test execution, please execute this test using google chrome)<br>
 
 ---------------------
 
