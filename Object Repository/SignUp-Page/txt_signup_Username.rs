@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username</name>
+   <name>txt_signup_Username</name>
    <tag></tag>
    <elementGuidId>2591702d-2b66-433c-86ea-5168e53c2504</elementGuidId>
    <selectorCollection>

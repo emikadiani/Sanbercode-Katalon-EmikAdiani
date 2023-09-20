@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Sign up</name>
+   <name>h2_Sign up</name>
    <tag></tag>
    <elementGuidId>63633a0e-5fd0-4b11-b648-cf994682e6be</elementGuidId>
    <selectorCollection>

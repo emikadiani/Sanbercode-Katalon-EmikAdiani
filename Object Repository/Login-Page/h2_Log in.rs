@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Log in</name>
+   <name>h2_Log in</name>
    <tag></tag>
    <elementGuidId>919da114-3989-4897-85cf-78eb54c9259c</elementGuidId>
    <selectorCollection>

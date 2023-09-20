@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user wants to register but leave all the field blank and only click sign up button</description>
+   <name>TC-SU-005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dbca8c9c-2cf5-4633-89ca-b7ad07530ecb</testCaseGuid>
+</TestCaseEntity>

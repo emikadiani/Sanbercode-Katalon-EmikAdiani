@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user register by only input password field and leave the username field blank</description>
+   <name>TC-SU-004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3afcc9d-2420-492b-b011-7b9dda9c1cad</testCaseGuid>
+</TestCaseEntity>

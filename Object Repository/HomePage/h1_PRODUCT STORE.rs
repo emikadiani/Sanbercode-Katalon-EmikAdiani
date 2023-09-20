@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>logo_PRODUCT STORE</name>
+   <name>h1_PRODUCT STORE</name>
    <tag></tag>
    <elementGuidId>2af668bc-b88b-4bc8-a45c-0b852ec49977</elementGuidId>
    <selectorCollection>
