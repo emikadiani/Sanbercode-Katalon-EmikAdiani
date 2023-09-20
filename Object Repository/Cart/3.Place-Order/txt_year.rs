@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_login_Password</name>
+   <name>txt_year</name>
    <tag></tag>
-   <elementGuidId>fe160c93-c9e9-45c4-bec3-a47675b4a68f</elementGuidId>
+   <elementGuidId>bb51883b-53fe-4d33-a966-ae65c2b19e25</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#loginpassword</value>
+         <key>XPATH</key>
+         <value>//input[@id='year']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='loginpassword']</value>
+         <key>CSS</key>
+         <value>#year</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ad462819-a8fc-438e-b215-753b2221e065</webElementGuid>
+      <webElementGuid>041b7cd8-4870-40e7-aa50-731331885a17</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>668901a0-2799-4391-a91e-ea040ac032f3</webElementGuid>
+      <value>text</value>
+      <webElementGuid>cd2a841c-b64c-437a-8a5f-636c0406b7ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,54 +38,54 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>568a267c-dd1c-40e9-adf9-5f0dd5136b32</webElementGuid>
+      <webElementGuid>c2f56079-9ed8-464a-af6c-372b6d20482d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>loginpassword</value>
-      <webElementGuid>3baee2fa-713e-4203-a538-2a52c948db8a</webElementGuid>
+      <value>year</value>
+      <webElementGuid>670ed469-ec2d-4a06-97cc-8757c745273f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;loginpassword&quot;)</value>
-      <webElementGuid>332d5d81-a923-453c-80de-15c9efe1d13a</webElementGuid>
+      <value>id(&quot;year&quot;)</value>
+      <webElementGuid>c395b54e-cde9-491c-a631-ea3a714045fb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='loginpassword']</value>
-      <webElementGuid>a563b3c8-bae7-4a53-a89d-a669085e554d</webElementGuid>
+      <value>//input[@id='year']</value>
+      <webElementGuid>e940e606-6db9-4d48-837e-f2edaaa5d79c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='logInModal']/div/div/div[2]/form/div[2]/input</value>
-      <webElementGuid>ba37be82-8566-4999-940f-cb5b278a997a</webElementGuid>
+      <value>//div[@id='orderModal']/div/div/div[2]/form/div[6]/input</value>
+      <webElementGuid>aba5568a-0e81-4d87-9bc6-223621d3df66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/div[2]/form/div[2]/input</value>
-      <webElementGuid>c95d6b2e-44e4-4376-8713-73b6f8273254</webElementGuid>
+      <value>//div[6]/input</value>
+      <webElementGuid>a1e45117-175f-4e80-b8eb-3de25e48b920</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'password' and @id = 'loginpassword']</value>
-      <webElementGuid>77962e52-bdbf-4904-9355-df7ce667eb1c</webElementGuid>
+      <value>//input[@type = 'text' and @id = 'year']</value>
+      <webElementGuid>29456261-2511-4871-898a-9fa15b77d41c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

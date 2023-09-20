@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Log in</name>
+   <name>h2_Iphone 6 32gb</name>
    <tag></tag>
-   <elementGuidId>919da114-3989-4897-85cf-78eb54c9259c</elementGuidId>
+   <elementGuidId>0ce1fc83-e1da-4d88-acb2-e4d4dff136d2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#logInModal > div.modal-dialog > div.modal-content > div.modal-header</value>
+         <key>XPATH</key>
+         <value>//div[@id='tbodyid']/h2</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='logInModal']/div/div/div</value>
+         <key>CSS</key>
+         <value>h2.name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,94 +21,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>63d9af51-9ccb-4321-b71e-cba4046a148c</webElementGuid>
+      <value>h2</value>
+      <webElementGuid>b391fd32-c094-47ea-b461-b508c1ce71d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>modal-header</value>
-      <webElementGuid>2a3e8a77-db6a-451f-bb39-7b23e2bf600b</webElementGuid>
+      <value>name</value>
+      <webElementGuid>3e154dff-65f9-45e8-864d-0a1bd596b19d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-          Log in
-          
-            ×
-          
-        </value>
-      <webElementGuid>6852a2af-c787-4913-8273-db633eb8d252</webElementGuid>
+      <value>Iphone 6 32gb</value>
+      <webElementGuid>25176317-8ff1-4f8d-940e-37f5f78b2460</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;logInModal&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-header&quot;]</value>
-      <webElementGuid>dadd4436-8fb8-4cfc-b049-fe579792ca4c</webElementGuid>
+      <value>id(&quot;tbodyid&quot;)/h2[@class=&quot;name&quot;]</value>
+      <webElementGuid>3254bc00-4540-430a-99cc-0025e4b46396</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='logInModal']/div/div/div</value>
-      <webElementGuid>82724717-fba2-41c8-b06b-a1bf94270b12</webElementGuid>
+      <value>//div[@id='tbodyid']/h2</value>
+      <webElementGuid>fb1c3473-a551-4a90-9648-40c04532ffed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign up'])[2]/following::div[4]</value>
-      <webElementGuid>e40c879f-2f61-4025-b0b5-5035c3edf45d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/following::h2[1]</value>
+      <webElementGuid>725e529e-403b-4c6f-8ab9-e20d1de2219d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[2]/following::div[4]</value>
-      <webElementGuid>f076dec5-0a2e-4992-a172-e9ecbfc37978</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::h2[1]</value>
+      <webElementGuid>10091500-8c3c-457e-ac48-801a6a17dd46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username:'])[2]/preceding::div[1]</value>
-      <webElementGuid>d2ff177a-dac5-4a38-b8c6-e41316f54f7b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*includes tax'])[1]/preceding::h2[1]</value>
+      <webElementGuid>a075803d-8773-4ac9-865a-693276506226</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Iphone 6 32gb']/parent::*</value>
+      <webElementGuid>3fe1cd4a-3913-4f56-ad3c-b18276154c84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/div</value>
-      <webElementGuid>79b782a5-aef7-4094-943b-d4e7a65e2471</webElementGuid>
+      <value>//h2</value>
+      <webElementGuid>ca367ed0-ae36-467a-8945-72896f0bf12d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = '
-          Log in
-          
-            ×
-          
-        ' or . = '
-          Log in
-          
-            ×
-          
-        ')]</value>
-      <webElementGuid>c29c740e-3801-4a0a-bb94-b98f4edc6635</webElementGuid>
+      <value>//h2[(text() = 'Iphone 6 32gb' or . = 'Iphone 6 32gb')]</value>
+      <webElementGuid>55bbb8a1-2521-460a-bc58-fe97d4776c2d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

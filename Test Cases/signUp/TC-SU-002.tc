@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user register with an already existing data</description>
+   <name>TC-SU-002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3816d37-ae5a-46ce-a334-fa94d5d421a2</testCaseGuid>
+</TestCaseEntity>

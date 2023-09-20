@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user wants to check out after add product to cart</description>
+   <name>TC-CO-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d50ab452-934e-428a-9c79-23b6fc4557ca</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cacdaed6-7f48-44d8-ba17-b9a05a2ccdfd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('DataOrder/DataOrder-Excel')</defaultValue>
+      <description></description>
+      <id>cacdaed6-7f48-44d8-ba17-b9a05a2ccdfd</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+</TestCaseEntity>

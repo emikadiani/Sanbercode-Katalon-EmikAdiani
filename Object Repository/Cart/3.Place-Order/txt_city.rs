@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password</name>
+   <name>txt_city</name>
    <tag></tag>
-   <elementGuidId>f31a9fe2-4f39-44cd-a7d5-e2cca2c178da</elementGuidId>
+   <elementGuidId>5401af6b-9cc2-40cf-8cd8-6bb0a6d04518</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#sign-password</value>
+         <key>XPATH</key>
+         <value>//input[@id='city']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='sign-password']</value>
+         <key>CSS</key>
+         <value>#city</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>207235e5-4973-4b06-a944-84a6ca8c2c15</webElementGuid>
+      <webElementGuid>da6d9772-b60a-488e-a633-d0fa8297e16f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>f76a6089-cd9c-4cf9-92b8-e19480a7bc7a</webElementGuid>
+      <value>text</value>
+      <webElementGuid>03a97be9-6898-4481-bb74-ccde4c709b5c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,54 +38,54 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>51b43c3c-1302-4ff2-84f5-d799517f517b</webElementGuid>
+      <webElementGuid>f244f8c5-9336-408a-b918-5be998b389cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>sign-password</value>
-      <webElementGuid>cd39b397-f341-4d26-bc08-6bbce60914c6</webElementGuid>
+      <value>city</value>
+      <webElementGuid>b767527e-9ae8-4afc-9218-d1957c268cfc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;sign-password&quot;)</value>
-      <webElementGuid>e7d469ac-6c9a-44fb-9f10-331b364aaf7b</webElementGuid>
+      <value>id(&quot;city&quot;)</value>
+      <webElementGuid>1a7aa2f1-1c43-4ad7-a4cb-3fe08dcacbea</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='sign-password']</value>
-      <webElementGuid>5be94df0-a9c6-4620-9a1d-6704f43d3ffd</webElementGuid>
+      <value>//input[@id='city']</value>
+      <webElementGuid>b4143478-a97f-4cdc-9245-17738d558b2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='signInModal']/div/div/div[2]/form/div[2]/input</value>
-      <webElementGuid>43d49bdb-dbd6-4131-a760-15590ed06fd1</webElementGuid>
+      <value>//div[@id='orderModal']/div/div/div[2]/form/div[3]/input</value>
+      <webElementGuid>1ae95091-b954-4a12-87ba-2fedc759c3a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div[2]/form/div[2]/input</value>
-      <webElementGuid>76a57d1c-9826-453f-9e5d-fb33d646675d</webElementGuid>
+      <value>//div[3]/input</value>
+      <webElementGuid>f10d26da-9325-4018-9042-e6b622d190cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'password' and @id = 'sign-password']</value>
-      <webElementGuid>94806634-0fd3-4467-8974-59e1ff46d384</webElementGuid>
+      <value>//input[@type = 'text' and @id = 'city']</value>
+      <webElementGuid>edaf1f12-e4f3-4a31-9d25-c5b92748f325</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

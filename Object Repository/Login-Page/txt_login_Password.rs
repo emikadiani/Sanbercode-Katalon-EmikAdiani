@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username</name>
+   <name>txt_login_Password</name>
    <tag></tag>
-   <elementGuidId>2591702d-2b66-433c-86ea-5168e53c2504</elementGuidId>
+   <elementGuidId>fe160c93-c9e9-45c4-bec3-a47675b4a68f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#sign-username</value>
+         <value>#loginpassword</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='sign-username']</value>
+         <value>//input[@id='loginpassword']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>c11df2b2-ea2b-4e58-ac61-81e77eb2b66f</webElementGuid>
+      <webElementGuid>ad462819-a8fc-438e-b215-753b2221e065</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>27953ae5-effb-4057-9c50-50151399f39c</webElementGuid>
+      <value>password</value>
+      <webElementGuid>668901a0-2799-4391-a91e-ea040ac032f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,54 +38,54 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>e604be12-3297-4de2-9844-7e703a39ca21</webElementGuid>
+      <webElementGuid>568a267c-dd1c-40e9-adf9-5f0dd5136b32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>sign-username</value>
-      <webElementGuid>b66afeb2-0707-4ec8-8654-dbd7bc761a8a</webElementGuid>
+      <value>loginpassword</value>
+      <webElementGuid>3baee2fa-713e-4203-a538-2a52c948db8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;sign-username&quot;)</value>
-      <webElementGuid>7417e939-934f-4011-b741-e9bdc994e17e</webElementGuid>
+      <value>id(&quot;loginpassword&quot;)</value>
+      <webElementGuid>332d5d81-a923-453c-80de-15c9efe1d13a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='sign-username']</value>
-      <webElementGuid>7a6fec77-5936-4120-87b1-bba91d5d8b77</webElementGuid>
+      <value>//input[@id='loginpassword']</value>
+      <webElementGuid>a563b3c8-bae7-4a53-a89d-a669085e554d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='signInModal']/div/div/div[2]/form/div/input</value>
-      <webElementGuid>76c80bd5-8cf0-47fc-bbf0-d6dc6bec1b80</webElementGuid>
+      <value>//div[@id='logInModal']/div/div/div[2]/form/div[2]/input</value>
+      <webElementGuid>ba37be82-8566-4999-940f-cb5b278a997a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div[2]/form/div/input</value>
-      <webElementGuid>97f79b55-cfcb-410e-8049-6d4c0f3befb4</webElementGuid>
+      <value>//div[3]/div/div/div[2]/form/div[2]/input</value>
+      <webElementGuid>c95d6b2e-44e4-4376-8713-73b6f8273254</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'sign-username']</value>
-      <webElementGuid>86fbba01-4ed0-4d87-a595-5ecb8c595a9b</webElementGuid>
+      <value>//input[@type = 'password' and @id = 'loginpassword']</value>
+      <webElementGuid>77962e52-bdbf-4904-9355-df7ce667eb1c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

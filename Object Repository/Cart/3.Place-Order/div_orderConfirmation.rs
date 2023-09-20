@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_orderConfirmation</name>
+   <tag></tag>
+   <elementGuidId>d350ecb8-6338-4046-b6cc-924069896539</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.sa-placeholder</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[11]/div[4]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>57a59121-b57c-44fd-88f8-1db1dd06abd2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sa-placeholder</value>
+      <webElementGuid>fbc06ffe-f924-4a8c-8028-83b15084aafc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;modal-open stop-scrolling&quot;]/div[@class=&quot;sweet-alert  showSweetAlert visible&quot;]/div[@class=&quot;sa-icon sa-success animate&quot;]/div[@class=&quot;sa-placeholder&quot;]</value>
+      <webElementGuid>c2b7eef9-060c-4ec9-8789-b7235124622b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[11]/div[4]/div</value>
+      <webElementGuid>0c72262f-58f5-4312-9d0b-79ca9a54a3e7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

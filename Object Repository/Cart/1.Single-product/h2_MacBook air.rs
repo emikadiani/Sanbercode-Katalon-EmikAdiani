@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Sign up</name>
+   <name>h2_MacBook air</name>
    <tag></tag>
-   <elementGuidId>63633a0e-5fd0-4b11-b648-cf994682e6be</elementGuidId>
+   <elementGuidId>1d7852a9-c6c9-415c-9e8e-d7af8b65b4ce</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#signInModal > div.modal-dialog > div.modal-content > div.modal-header</value>
+         <key>XPATH</key>
+         <value>//div[@id='tbodyid']/h2</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='signInModal']/div/div/div</value>
+         <key>CSS</key>
+         <value>h2.name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,94 +21,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>4e724a9f-33e1-43e0-a98e-8af4581e6b47</webElementGuid>
+      <value>h2</value>
+      <webElementGuid>33c765f1-f0ac-4c29-9103-c58a3ac6bcc5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>modal-header</value>
-      <webElementGuid>d41fa01f-c49a-464d-918e-d62d42a32af1</webElementGuid>
+      <value>name</value>
+      <webElementGuid>78d07113-b479-49e8-871c-b9c9102759ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-          Sign up
-          
-            ×
-          
-        </value>
-      <webElementGuid>1d4b1779-50cc-47b7-991a-4d5fcf715c4b</webElementGuid>
+      <value>MacBook air</value>
+      <webElementGuid>2da8c654-2c14-432e-b5d6-03118a140763</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;signInModal&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-header&quot;]</value>
-      <webElementGuid>0361c80a-2e8e-45b2-bf48-6e4a970afd5e</webElementGuid>
+      <value>id(&quot;tbodyid&quot;)/h2[@class=&quot;name&quot;]</value>
+      <webElementGuid>2eb0a889-3f8f-4d6f-a1ab-66c92fd50f7e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='signInModal']/div/div/div</value>
-      <webElementGuid>bf5fe603-5d50-477e-9336-234ad9b82734</webElementGuid>
+      <value>//div[@id='tbodyid']/h2</value>
+      <webElementGuid>e2d7eb25-735f-46ec-ba6e-9eb267de3462</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send message'])[1]/following::div[4]</value>
-      <webElementGuid>3c82042d-a7fa-4ef1-9aea-4049e714779b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/following::h2[1]</value>
+      <webElementGuid>9efab03c-05c0-49d8-a5f2-91e4412f2d69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/following::div[4]</value>
-      <webElementGuid>90a3a373-7e3d-490a-81e5-6d88d619101d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::h2[1]</value>
+      <webElementGuid>440379b5-c8f2-49ab-b513-ab9a98f15c0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username:'])[1]/preceding::div[1]</value>
-      <webElementGuid>a9cec4f0-7e41-468b-91ab-541a846bd6ba</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*includes tax'])[1]/preceding::h2[1]</value>
+      <webElementGuid>c5713376-fd8a-4912-99ca-8a5441596ddd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='MacBook air']/parent::*</value>
+      <webElementGuid>dfb20768-5b1c-4aab-b5c6-2451f3abbd8e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div</value>
-      <webElementGuid>d8792c10-0538-40ce-a083-50d5d63d7cb8</webElementGuid>
+      <value>//h2</value>
+      <webElementGuid>a10c8519-a4b1-441b-8588-190805cbb65c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = '
-          Sign up
-          
-            ×
-          
-        ' or . = '
-          Sign up
-          
-            ×
-          
-        ')]</value>
-      <webElementGuid>aee310ae-389e-4f49-af59-88c2564e518c</webElementGuid>
+      <value>//h2[(text() = 'MacBook air' or . = 'MacBook air')]</value>
+      <webElementGuid>a267249f-cdb9-4fe9-b7c7-5181ac401cf0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
