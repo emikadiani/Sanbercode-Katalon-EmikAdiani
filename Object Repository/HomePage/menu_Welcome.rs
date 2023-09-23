@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>logo_PRODUCT STORE</name>
+   <name>menu_Welcome</name>
    <tag></tag>
-   <elementGuidId>2af668bc-b88b-4bc8-a45c-0b852ec49977</elementGuidId>
+   <elementGuidId>ad0aefaf-8937-418a-a438-40c67a904b44</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#nava</value>
+         <key>XPATH</key>
+         <value>//a[@id='nameofuser']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='nava']</value>
+         <key>CSS</key>
+         <value>#nameofuser</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,129 +22,134 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>a5917544-3ebb-42b0-8f78-1ef08875f789</webElementGuid>
+      <webElementGuid>3ac45a7f-44f2-488c-919b-4a3d44e3a61f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>navbar-brand</value>
-      <webElementGuid>77db11a1-c741-4b27-b860-3732dfd47a4a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>nava</value>
-      <webElementGuid>f38cf11a-d225-4a76-a127-0fbb64c2be2b</webElementGuid>
+      <value>nav-link</value>
+      <webElementGuid>84022a01-c6cb-49b6-a7cd-286f7a099ff6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>index.html</value>
-      <webElementGuid>a7b941df-ec58-4553-9ddc-6ff445d5aa65</webElementGuid>
+      <value>#</value>
+      <webElementGuid>2280fcd7-6eb6-4e36-a637-3f2e695a877b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>nameofuser</value>
+      <webElementGuid>375d955f-b187-4a83-b61c-f4690ca67a8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-      PRODUCT STORE</value>
-      <webElementGuid>6863bfe1-b202-4169-9d6f-5da97877f238</webElementGuid>
+      <value>Welcome miral</value>
+      <webElementGuid>c0407658-6ad2-4ff9-a3ce-324886ebe3d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;nava&quot;)</value>
-      <webElementGuid>80f74e1c-9e0a-40f9-b456-460615ca9efd</webElementGuid>
+      <value>id(&quot;nameofuser&quot;)</value>
+      <webElementGuid>27d14836-4d4d-4473-9ece-fa5e252c4f0b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='nava']</value>
-      <webElementGuid>31e4de5a-c763-4f46-bc9d-8bc62adb2921</webElementGuid>
+      <value>//a[@id='nameofuser']</value>
+      <webElementGuid>1dea9e1f-48a2-4721-8876-4f7e4b6f23b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//nav[@id='narvbarx']/a</value>
-      <webElementGuid>b12c2a6c-131a-4f0d-a7af-1dbae73db551</webElementGuid>
+      <value>//div[@id='navbarExample']/ul/li[7]/a</value>
+      <webElementGuid>cfe3c6c2-d0cc-47d5-bfa6-9bad2af5398b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'PRODUCT STORE')]</value>
-      <webElementGuid>c77e000b-9fcd-4efc-bbc1-138a2c6c3a4d</webElementGuid>
+      <value>//a[contains(text(),'Welcome miral')]</value>
+      <webElementGuid>bf260347-4e9d-4348-99b2-11af1856e029</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[4]/following::a[1]</value>
-      <webElementGuid>7ad88291-3abf-4a45-b4fb-f4c3e9e91b63</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/following::a[3]</value>
+      <webElementGuid>1bc76d8d-ffbc-465b-b702-e827e929d910</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close Modal Dialog'])[1]/following::a[1]</value>
-      <webElementGuid>fb934809-8043-49f0-b69a-b36844750d75</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::a[6]</value>
+      <webElementGuid>fa1b3ca9-ea03-449b-ae96-223b2d128be6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/preceding::a[1]</value>
-      <webElementGuid>883fb396-6554-4efb-a28f-e5f784fb2404</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::a[2]</value>
+      <webElementGuid>0ff42c3b-9c1a-41fd-8068-d109691f78dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='PRODUCT STORE']/parent::*</value>
-      <webElementGuid>41b46460-6807-444b-85fc-80266413be95</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::a[3]</value>
+      <webElementGuid>e9602d79-e3eb-4759-88f0-96d6e1f2c91d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Welcome miral']/parent::*</value>
+      <webElementGuid>20bff337-3c70-4330-b7f9-fc64ee341098</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'index.html')]</value>
-      <webElementGuid>7087bef5-1e54-4b63-84d5-05bc3f2f65de</webElementGuid>
+      <value>(//a[contains(@href, '#')])[5]</value>
+      <webElementGuid>c4fe1217-1aeb-4c3b-9208-9aaeef339100</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a</value>
-      <webElementGuid>b299b73f-9d4e-4033-bc2a-80fd9ab726c8</webElementGuid>
+      <value>//li[7]/a</value>
+      <webElementGuid>1416dfae-b86c-4bb8-ba6d-1c31b4f6a24d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'nava' and @href = 'index.html' and (text() = '
-      PRODUCT STORE' or . = '
-      PRODUCT STORE')]</value>
-      <webElementGuid>024eb5ac-eb84-4aad-8627-0f315646a6da</webElementGuid>
+      <value>//a[@href = '#' and @id = 'nameofuser' and (text() = 'Welcome miral' or . = 'Welcome miral')]</value>
+      <webElementGuid>f1829cf2-628f-4800-ab2e-d4c4d64018c6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

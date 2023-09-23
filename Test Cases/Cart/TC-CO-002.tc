@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user wants to checkout without any product on the cart</description>
+   <name>TC-CO-002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4e601747-11d6-46b5-9b89-76341740dd64</testCaseGuid>
+</TestCaseEntity>

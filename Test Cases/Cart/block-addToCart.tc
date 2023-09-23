@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user wants to add a product to cart</description>
+   <name>block-addToCart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a880e3cc-ba08-45a9-93b7-63937b0949d3</testCaseGuid>
+</TestCaseEntity>
